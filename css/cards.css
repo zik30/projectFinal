@@ -1,0 +1,41 @@
+.cards {
+    padding-top: 150px;
+    min-height: 100vh;
+    background: rgb(95, 30, 0);
+    background: linear-gradient(0deg, rgba(95, 30, 0, 1) 13%, rgba(0, 31, 83, 1) 33%, rgba(20, 89, 0, 1) 59%, rgba(11, 0, 0, 1) 84%, rgba(147, 0, 0, 1) 100%);
+}
+.cards_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card{
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px 30px 30px 0;
+}
+.img{
+    width: 280px;
+    height: 150px;
+    border-radius: 20px;
+    background-image: url("../images/img27.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+h2{
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Magnet Trial ExtraBold";
+}
+p {
+    font-size: 15px;
+    text-align: justify;
+}

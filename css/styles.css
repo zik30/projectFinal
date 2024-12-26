@@ -1,0 +1,139 @@
+/*.heading{*/
+/*    width: 100vw;*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    background: none;*/
+/*}*/
+
+/*todo   MAIN*/
+.main{
+    background-image: url("../images/img15inh.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+    transition: 0.7s;
+}
+.circles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circles .active{
+    background-color: #4be100;
+}
+.main_inner img{
+    width: 400px;
+}
+/*todo SLIDER*/
+.slider{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sliders{
+    backdrop-filter: blur(7px);
+    height: 100vh;
+    width: 100%;
+}
+.inner_slider{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.sliderItem{
+    width: 250px;
+    height: 150px;
+    color: white;
+    padding: 25px;
+    position: relative;
+    background-size: cover;
+}
+.inner_slider .activeSlider{
+    width: 560px;
+    height: 250px;
+    padding: 15px;
+}
+.sliderItem .arrows{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sliderItem h2{
+    padding: 3px;
+    background-color: rgba(75, 225, 0, .35);
+    border-radius: 10px;
+}
+.sideSlider h2{
+    position: absolute;
+    bottom: 2px;
+    font-size: 12px;
+}
+.inner_slider .activeSlider h2{
+    position: absolute;
+    bottom: 5px;
+    font-size: 25px;
+}
+.arrows .btn{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: #4be100 solid 2px;
+}
+.video{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background: radial-gradient(#c10303, #3e0303, #000000);
+}
+.video_inner{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.video_text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 300px;
+}
+.video_text h2 {
+    color: #4be100;
+    width: 450px;
+    font-size: 110px;
+    font-family: Anton, serif;
+    padding: 0;
+}
+.video_text p{
+    color: white;
+    font-size: 17px;
+    line-height: 31px;
+    font-family: Calibri;
+}
+
